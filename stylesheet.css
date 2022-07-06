@@ -1,0 +1,120 @@
+html {
+    touch-action: manipulation;
+  }
+.attack .cut{
+  color:red;
+}
+.defence .cut{
+  color:blue;
+}
+@media screen and (max-width:480px){
+*{
+  margin-left:1%;
+}
+.attack,.defence{
+  border:5px solid;
+}
+.cut{
+  font-size:30px;
+　margin:10px,0px,0px,10px;
+  height:0px;
+}
+.attackpokemon label{
+  font-size:20px;
+}
+.attackpokemon input{
+  height:30px;
+ width:250px;
+  font-size:18px;
+}
+.skill label{
+  font-size:20px;
+}
+.skill input{
+  height:30px;
+  width:250px;
+  font-size:18px;
+}
+.atklevel label{
+  font-size:20px;
+  }
+.atklevel input{
+  height:30px;
+  width:250px;
+  font-size:18px;
+}
+.item label{
+  font-size:20px;
+}
+.item input{
+  height:30px;
+  width:250px;
+  font-size:18px;
+  margin-bottom:10px;
+}
+.atk{
+  font-size:20px;
+ }
+ .defencepokemon label{
+  font-size:20px;
+}
+.defencepokemon input{
+  height:30px;
+  width:250px;
+  font-size:18px;
+}
+.deflevel label{   
+  font-size:20px;
+} 
+.deflevel input{
+  height:30px;
+  width:250px;
+  font-size:18px;
+  margin-bottom:10px;
+}
+.result{
+  font-size:20px;
+}
+.unitedb{
+  font-size:15px;
+}    
+}
+@media screen and (min-width:481px){
+
+*{
+  margin-left:10px;
+}
+input{
+  height:30px;
+  font-size:20px;
+}
+.check{
+  display:none;
+}
+.item{
+  margin-left:0px;
+}
+.attack{
+  border:5px solid;
+}
+.defence{
+  border:5px solid;
+  height:200px;
+}
+.attackpokemon label,.skill label,.atklevel label,.item label,.atk,.defencepokemon label,.deflevel label{
+  font-size:20px;
+}
+.item,.atk{
+  margin-left:10px;
+}
+.item input{
+  width:100px;
+}
+.cut{
+  font-size:40px;
+  height:40px;
+  width:100%;
+  margin:10px 0px 0px 30px;
+  padding:0;
+}
+}
